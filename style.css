@@ -1,0 +1,94 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+  font-family: 'Georgia', serif;
+  color: #3e2c23;
+  background-color: #f5efe6;
+}
+
+/* Sección Inicio con imagen de fondo */
+#inicio {
+  background-image: 
+    linear-gradient(rgba(30, 20, 15, 0.55), rgba(30, 20, 15, 0.55)),
+    url('https://i.pinimg.com/originals/b3/c2/ce/b3c2ce84dc2dc1df67670200cbbe2e80.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f5efe6;
+}
+
+#inicio h1 {
+  font-size: 3.5rem;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 8px rgba(0,0,0,0.6);
+  color: #e8c88a;
+}
+
+#inicio p {
+  font-size: 1.2rem;
+  margin-top: 15px;
+  font-style: italic;
+  color: #f0e6d6;
+}
+
+/* Sección Servicios */
+#servicios {
+  background-image: url('https://i.pinimg.com/736x/09/eb/3b/09eb3b1716967a634be16c3f086b9a59.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 60px 20px;
+}
+
+#servicios h2 {
+  font-size: 2.2rem;
+  color: #e8c88a;
+  margin-bottom: 30px;
+}
+
+#servicios ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+#servicios li {
+  background-color: #fff;
+  padding: 20px 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  font-size: 1.1rem;
+}
+
+/* Sección Contacto */
+#contacto {
+  background-image: 
+    linear-gradient(rgba(62, 44, 35, 0.75), rgba(62, 44, 35, 0.75)),
+    url('https://i.pinimg.com/736x/23/8a/50/238a5013f680616de3b149c3944d2701.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #f5efe6;
+  padding: 60px 20px;
+}
+
+#contacto h2 {
+  color: #e8c88a;
+  margin-bottom: 20px;
+}
+
+#contacto p {
+  margin: 8px 0;
+  font-size: 1rem;
+}
