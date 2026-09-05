@@ -32,3 +32,16 @@ Abre el archivo `index.html` directamente en el navegador, o usa una extensión 
 - `docs:` para cambios en documentación
 - `fix:` para corrección de errores
 
+
+
+
+
+## Cambios - Integrante 1
+
+- Se creó el archivo **style.css** (antes los estilos no existían como archivo separado).
+- Se conectó el HTML al nuevo archivo CSS mediante `<link rel="stylesheet" href="style.css">`.
+- Se agregaron imágenes de fondo (mediante URL) en las secciones:
+  - **Inicio**: imagen con overlay oscuro para resaltar el título.
+  - **Servicios**: imagen sin overlay, totalmente nítida.
+  - **Contacto**: imagen con overlay oscuro para mantener legible el texto claro.
+- Se ajustaron los niveles de opacidad de los overlays según la sección.
